@@ -29,6 +29,7 @@ const App = () => {
 	}
 
 	return (
+		<div className="page">
 		<div className="container">
 			<TodoForm addTodo={addTodo}/>
 			<TodoList 	
@@ -36,6 +37,7 @@ const App = () => {
 				onComplete = {onComplete} 
 				onDeleteItem = {onDeleteItem}/>
 				
+		</div>
 		</div>
 	)
 };

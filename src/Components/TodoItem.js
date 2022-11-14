@@ -7,7 +7,7 @@ const TodoItem = ({todo, onComplete, onDeleteItem}) => {
             textDecoration: todo.completed ? 'line-through' : 'none' ,
             margin: '20px',
             border: '1px solid white',
-            backgroundColor: 'grey'
+            padding: '1px'
         }
     }
 
